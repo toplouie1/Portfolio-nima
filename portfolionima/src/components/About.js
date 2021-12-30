@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import html from "../skillsimg/html.png";
 
 function About() {
 	return (
@@ -26,6 +27,12 @@ function About() {
 			</p>
 			<p>My goal is to be an efficient coder by the end of the pursuit days.</p>
 			<h3> Skills </h3>
+
+			<div>
+				{" "}
+				<img src={html} alt="html" />
+			</div>
+
 			<p className="skills">
 				HTML/CSS, JavaScript, Node, Express, React/Redux, PostgreSQL, APIs, Git,
 				Data Structures,
