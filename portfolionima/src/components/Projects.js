@@ -16,21 +16,21 @@ function Projects() {
 					</a>
 				</div>
 				<div>
-					<h2>Youtube-Clone</h2>
-					<p>
-						This is a Youtube-clone that was done with few of other fellow had
-						to make use of the Api , Youtube-react I was mostly Working on the
-						UI/UX and helped on other places.
+					<h2>- Youtube-Clone -</h2>
+					<p className="summaryP">
+						This is a Youtube-clone was done using React javascript ,
+						Youtube-react. You will be able to search all youtube videos and its
+						all so dynamic .
 					</p>
 				</div>
 			</div>
 
 			<div className="project">
 				<div>
-					<h2>Calculator</h2>
-					<p>
-						This is a Calculator App . It was made using react JS, I really had
-						fun doing all the UI/UX .
+					<h2>- Calculator -</h2>
+					<p className="summaryP leftSummary">
+						This is a Calculator App , That you will be able to simple
+						calclulation . It was done using React JavaScrist
 					</p>
 				</div>
 				<div>
@@ -50,8 +50,8 @@ function Projects() {
 					</a>
 				</div>
 				<div>
-					<h2>Weather-App</h2>
-					<p>
+					<h2>- Weather-App -</h2>
+					<p className="summaryP">
 						This is a Weather-App where you will be able to search for Weather
 						by inputing city/Country , It was made using Vanilla JavaScript
 					</p>
@@ -60,10 +60,10 @@ function Projects() {
 
 			<div className="project">
 				<div>
-					<h2>Pixel-Painter</h2>
-					<p>
-						Pixel Painter Website that you will be able to draw choosing the
-						color's you pick and delete / reset .
+					<h2>- Pixel-Painter -</h2>
+					<p className="summaryP leftSummary">
+						Pixel Painter Website you will be able to draw choosing the color's
+						you pick and delete / reset , It was made using Vanilla JavaScript
 					</p>
 				</div>
 				<div>

@@ -11,7 +11,7 @@ function Contact() {
 				<div className="emailSpot">Email : Toplv1999@gmail.com</div>
 
 				<a target="blank" href="https://github.com/toplouie1">
-					<img src={github} alt="gitjub logo" />
+					<img className="githubImg" src={github} alt="github logo" />
 				</a>
 				<a
 					target="blank"

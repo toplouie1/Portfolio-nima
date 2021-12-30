@@ -14,7 +14,7 @@ function Nav() {
 						<a href="#projectsContainer">Projects</a>
 					</li>
 					<li>
-						<a href="">Contact</a>
+						<a href="#contactsContainer">Contact</a>
 					</li>
 
 					<button className="navbutton">

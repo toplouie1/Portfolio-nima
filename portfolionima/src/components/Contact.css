@@ -8,8 +8,8 @@ h1 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-img {
-	background-color: silver;
+.githubImg {
+	background-color: white;
 	text-align: center;
 }
 .emailSpot {
@@ -21,6 +21,7 @@ img {
 }
 .linked {
 	height: 30px;
+	background-color: black;
 }
 .footer {
 	margin-top: 60px;
