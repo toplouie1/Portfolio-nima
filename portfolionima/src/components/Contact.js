@@ -6,7 +6,7 @@ import linked from "../images/link.png";
 function Contact() {
 	return (
 		<div id="contactsContainer">
-			<h2>Connect With Me</h2>
+			<h1>Connect With Me</h1>
 			<div className="contactSection">
 				<div className="emailSpot">Email : Toplv1999@gmail.com</div>
 
@@ -20,6 +20,8 @@ function Contact() {
 					<img className="linked" src={linked} alt="linkedIn logo" />
 				</a>
 			</div>
+
+			<div className="footer">Built By Nima Sherpa...</div>
 		</div>
 	);
 }

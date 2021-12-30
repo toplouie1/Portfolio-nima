@@ -2,14 +2,18 @@
 	text-align: center;
 }
 
-h2 {
+h1 {
 	text-align: center;
+	background: -webkit-linear-gradient(#b7b7b7, #464cff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 img {
 	background-color: silver;
 	text-align: center;
 }
 .emailSpot {
+	font-family: Georgia, "Times New Roman", Times, serif;
 	margin: 30px;
 }
 .contactSection {
@@ -17,4 +21,12 @@ img {
 }
 .linked {
 	height: 30px;
+}
+.footer {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	text-align: center;
+	background: -webkit-linear-gradient(#b7b7b7, #464cff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
