@@ -1,0 +1,21 @@
+#aboutContainer {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: 200px;
+	text-align: center;
+	width: 100%;
+}
+.aboutHeading {
+	font-size: 72px;
+	background: -webkit-linear-gradient(#a2fffb, #004bf5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+p {
+	font-family: fantasy;
+	text-align: center;
+}
+h3 {
+	margin-top: 100px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+}

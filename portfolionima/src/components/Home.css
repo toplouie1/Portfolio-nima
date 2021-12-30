@@ -1,21 +1,24 @@
 #homeContainer {
-	font-size: 3.5em;
+	font-size: 4em;
 	width: 100%;
 	padding-top: 1em;
-	margin-top: 0px;
 	text-align: center;
 	padding-left: 20px;
 	padding-bottom: 1em;
 }
 .hiColor {
 	transition: 0.6s;
+	background: -webkit-linear-gradient(#e554ff, #004bf5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	opacity: 0.4;
 }
 .hiColor:hover {
-	color: royalblue;
+	opacity: 0.9;
 }
 .firstP {
+	background: -webkit-linear-gradient(#a2fffb, #004bf5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	transition: 0.6s;
-}
-.firstP:hover {
-	color: rgb(65, 155, 155);
 }
