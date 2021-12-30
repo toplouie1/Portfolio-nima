@@ -2,6 +2,11 @@
 	margin: 10px 60px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
+a {
+	color: white;
+	text-decoration: none;
+	transition: 1s;
+}
 #mainNav {
 	display: flex;
 	justify-content: space-between;
