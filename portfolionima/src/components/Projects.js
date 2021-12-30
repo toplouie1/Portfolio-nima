@@ -4,10 +4,55 @@ import "./Projects.css";
 function Projects() {
 	return (
 		<div id="projectsContainer">
-			<h3 className="headingProjects">Projects I've Built</h3>
+			<h1 className="headingProjects">Projects</h1>
 			<div className="project">
-				<div>hey </div>
-				<div>How </div>
+				<div>
+					<h5>Youtube-Clone</h5>
+					<p>
+						This is a Youtube-clone that is done by the member's below making
+						use of the Youtube Api and the react-youtube.
+					</p>
+				</div>
+				<div>
+					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
+				</div>
+			</div>
+
+			<div className="project">
+				<div>
+					<h5>Calculator</h5>
+					<p>
+						This is a Youtube-clone that is done by the member's below making
+						use of the Youtube Api and the react-youtube.
+					</p>
+				</div>
+				<div>
+					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
+				</div>
+			</div>
+			<div className="project">
+				<div>
+					<h5>Weather-App</h5>
+					<p>
+						This is a Youtube-clone that is done by the member's below making
+						use of the Youtube Api and the react-youtube.
+					</p>
+				</div>
+				<div>
+					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
+				</div>
+			</div>
+			<div className="project">
+				<div>
+					<h5>Pixel-Painter</h5>
+					<p>
+						This is a Youtube-clone that is done by the member's below making
+						use of the Youtube Api and the react-youtube.
+					</p>
+				</div>
+				<div>
+					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
+				</div>
 			</div>
 		</div>
 	);
