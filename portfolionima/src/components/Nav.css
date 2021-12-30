@@ -27,7 +27,7 @@ a {
 	border: none;
 	font-family: fantasy;
 	font-size: 20px;
-	transition: 0.3s ease-in;
+	transition: 0.6s ease-out;
 	font-weight: 800;
 }
 .navbutton:hover {
