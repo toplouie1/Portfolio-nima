@@ -1,0 +1,13 @@
+#projectContainer {
+	width: 100%;
+}
+.project {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	text-align: center;
+}
+.headingprojects {
+	margin-top: 100px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+}
