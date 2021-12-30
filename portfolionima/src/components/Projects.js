@@ -1,5 +1,9 @@
 import React from "react";
 import "./Projects.css";
+import calculator from "../images/calculator.png";
+import youtube from "../images/youtubeClone.png";
+import weather from "../images/weather.png";
+import pixel from "../images/pixelPainter.png";
 
 function Projects() {
 	return (
@@ -7,51 +11,53 @@ function Projects() {
 			<h1 className="headingProjects">Projects</h1>
 			<div className="project">
 				<div>
-					<h5>Youtube-Clone</h5>
+					<img src={youtube} alt="Youtube-clone-img" />
+				</div>
+				<div>
+					<h2>Youtube-Clone</h2>
 					<p>
 						This is a Youtube-clone that is done by the member's below making
 						use of the Youtube Api and the react-youtube.
 					</p>
-				</div>
-				<div>
-					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
 				</div>
 			</div>
 
 			<div className="project">
 				<div>
-					<h5>Calculator</h5>
+					<h2>Calculator</h2>
 					<p>
 						This is a Youtube-clone that is done by the member's below making
 						use of the Youtube Api and the react-youtube.
 					</p>
 				</div>
 				<div>
-					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
+					<img src={calculator} alt="Calculater image" />
 				</div>
 			</div>
+
 			<div className="project">
 				<div>
-					<h5>Weather-App</h5>
+					<img src={weather} alt="Youtube-clone-img" />
+				</div>
+				<div>
+					<h2>Weather-App</h2>
 					<p>
 						This is a Youtube-clone that is done by the member's below making
 						use of the Youtube Api and the react-youtube.
 					</p>
-				</div>
-				<div>
-					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
 				</div>
 			</div>
+
 			<div className="project">
 				<div>
-					<h5>Pixel-Painter</h5>
+					<h2>Pixel-Painter</h2>
 					<p>
 						This is a Youtube-clone that is done by the member's below making
 						use of the Youtube Api and the react-youtube.
 					</p>
 				</div>
 				<div>
-					<img src="/src/images/youtubeClone.png" alt="Youtube-clone-img" />
+					<img src={pixel} alt="Youtube-clone-img" />
 				</div>
 			</div>
 		</div>

@@ -1,11 +1,11 @@
 #projectsContainer {
 	padding-top: 200px;
-	width: 100%;
 }
 .project {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 1fr;
 	text-align: center;
+	padding-bottom: 10em;
 }
 .headingProjects {
 	background: -webkit-linear-gradient(#5d88ff, #c4c8ff);
@@ -16,4 +16,7 @@
 	font-size: 72px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding-bottom: 40px;
+}
+img {
+	height: 300px;
 }
