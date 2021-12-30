@@ -12,7 +12,7 @@ function Projects() {
 			<div className="project">
 				<div>
 					<a href="https://youtube-clonana.netlify.app/" target="blank">
-						<img src={youtube} alt="Youtube-clone-img" />
+						<img className="imgs" src={youtube} alt="Youtube-clone-img" />
 					</a>
 				</div>
 				<div>
@@ -35,7 +35,7 @@ function Projects() {
 				</div>
 				<div>
 					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
-						<img src={calculator} alt="Calculater image" />
+						<img className="imgs" src={calculator} alt="Calculater image" />
 					</a>
 				</div>
 			</div>
@@ -46,7 +46,7 @@ function Projects() {
 						href="https://toplouie1.github.io/8-0-weather-app-project/"
 						target="blank"
 					>
-						<img src={weather} alt="weather img" />
+						<img className="imgs" src={weather} alt="weather img" />
 					</a>
 				</div>
 				<div>
@@ -68,7 +68,7 @@ function Projects() {
 				</div>
 				<div>
 					<a href="https://toplouie1.github.io/8-0-events-lab/" target="blank">
-						<img src={pixel} alt="pixel painter img " />
+						<img className="imgs" src={pixel} alt="pixel painter img " />
 					</a>
 				</div>
 			</div>

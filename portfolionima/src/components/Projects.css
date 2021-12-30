@@ -17,13 +17,13 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding-bottom: 1em;
 }
-img {
+.imgs {
 	height: 300px;
 	transition: ease-in 0.3s;
 	box-shadow: 60px -16px rgb(37, 44, 44);
 	opacity: 0.7;
 }
-img:hover {
+.imgs:hover {
 	height: 330px;
 	opacity: 0.8;
 	box-shadow: 60px 16px rgb(226, 230, 230);

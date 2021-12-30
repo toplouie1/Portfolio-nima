@@ -1,0 +1,20 @@
+#contactContainer {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+img {
+	background-color: silver;
+	text-align: center;
+}
+.emailSpot {
+	margin: 30px;
+}
+.contactSection {
+	text-align: center;
+}
+.linked {
+	height: 30px;
+}
