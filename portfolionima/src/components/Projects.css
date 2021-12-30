@@ -19,4 +19,8 @@
 }
 img {
 	height: 300px;
+	transition: ease-in 1s;
+}
+img:hover {
+	height: 320px;
 }
