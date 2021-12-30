@@ -10,6 +10,12 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+.skills {
+	background-color: rgb(238, 238, 238);
+}
+.skills img {
+	margin: 6px;
+}
 p {
 	font-family: fantasy;
 	text-align: center;
