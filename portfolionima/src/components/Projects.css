@@ -33,6 +33,11 @@
 	color: #c7c7c7;
 	padding: 60px;
 	width: 500px;
+	box-shadow: 3px 3px #1e1b1b;
+	transition: 0.3s;
+}
+.summaryP:hover {
+	box-shadow: 3px 3px #111;
 }
 .leftSummary {
 	margin-left: 100px;
@@ -80,5 +85,14 @@
 	.summaryP {
 		padding: 60px;
 		width: 100px;
+	}
+	.logo {
+		height: 50px;
+		margin: 10px;
+		padding: 0;
+		margin-left: 8px;
+	}
+	#navContainer {
+		margin: 5px;
 	}
 }

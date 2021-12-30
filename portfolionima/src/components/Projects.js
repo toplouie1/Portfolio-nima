@@ -8,7 +8,7 @@ import pixel from "../images/pixelPainter.png";
 function Projects() {
 	return (
 		<div id="projectsContainer">
-			<h1 className="headingProjects">Projécts</h1>
+			<h1 className="headingProjects">projécts</h1>
 			<div className="project">
 				<div>
 					<a href="https://youtube-clonana.netlify.app/" target="blank">

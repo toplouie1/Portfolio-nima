@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
 	return (
 		<div id="aboutContainer">
-			<h1 className="aboutHeading">About Me</h1>
+			<h1 className="aboutHeading">About mé</h1>
 			<p className="aboutParagraph">
 				Hey, my name is Nima Sherpa. I am a full stack software engineer.
 			</p>

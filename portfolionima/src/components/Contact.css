@@ -9,8 +9,14 @@ h1 {
 	-webkit-text-fill-color: transparent;
 }
 .githubImg {
-	background-color: white;
+	margin: 10px;
+	background-color: rgb(255, 248, 248);
+	border-radius: 50%;
 	text-align: center;
+	transition: ease-in 0.6s;
+}
+.githubImg:hover {
+	background-color: royalblue;
 }
 .emailSpot {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -20,8 +26,13 @@ h1 {
 	text-align: center;
 }
 .linked {
+	margin: 10px;
+	transition: ease-in 0.6s;
 	height: 30px;
 	background-color: black;
+}
+.linked:hover {
+	background-color: rgb(255, 255, 255);
 }
 .footer {
 	margin-top: 60px;

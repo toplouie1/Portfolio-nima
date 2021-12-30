@@ -12,13 +12,9 @@ a {
 	justify-content: space-between;
 }
 .logo {
-	font-size: 35px;
-	border-bottom: 4px solid #3471ff;
+	height: 60px;
+	border-radius: 20%;
 	transition: 1s;
-}
-.logo:hover {
-	font-size: 35px;
-	border-bottom: 4px solid #85aaff;
 }
 .navbutton {
 	background-color: #111;

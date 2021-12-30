@@ -1,11 +1,14 @@
 import React from "react";
 import "./Nav.css";
+import main from "../images/main.png";
 
 function Nav() {
 	return (
 		<div id="navContainer">
 			<div id="mainNav">
-				<div className="logo">ŃŠ</div>
+				{/* <div className="logo">ŃŠ</div> */}
+				<img className="logo" src={main} alt="logo" />
+
 				<ul className="allList">
 					<li>
 						<a href="#aboutContainer">About</a>
