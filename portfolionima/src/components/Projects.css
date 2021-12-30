@@ -35,5 +35,50 @@
 	width: 500px;
 }
 .leftSummary {
-	margin-left: 400px;
+	margin-left: 100px;
+}
+
+@media only screen and (max-width: 1300px) {
+	.imgs {
+		height: 200px;
+	}
+	.imgs:hover {
+		height: 210px;
+	}
+	.leftSummary {
+		margin-left: 0px;
+	}
+	.summaryP {
+		padding: 60px;
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.allList {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.allList li {
+		list-style: none;
+		margin: 0 10px;
+		transition: 0.1s ease-in-out;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.project {
+		display: grid;
+		grid-row: 2;
+		align-items: center;
+	}
+	.imgs {
+		height: 150px;
+	}
+	.imgs:hover {
+		height: 170px;
+	}
+	.summaryP {
+		padding: 60px;
+		width: 100px;
+	}
 }
