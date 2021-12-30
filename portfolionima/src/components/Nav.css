@@ -9,12 +9,34 @@
 .logo {
 	font-size: 40px;
 }
+.navbutton {
+	background-color: #111;
+	color: white;
+	cursor: pointer;
+	border: none;
+	font-family: fantasy;
+	font-size: 20px;
+	transition: 1s;
+	font-weight: 800;
+}
+.navbutton:hover {
+	color: black;
+	border: 1px solid seagreen;
+	border-radius: 3px;
+	background-color: rgb(97, 219, 150);
+}
 .allList {
 	display: flex;
 	justify-content: space-evenly;
 }
 .allList li {
+	list-style: none;
 	margin: 0 60px;
-	text-decoration: none;
-	text-transform: none;
+	transition: 0.8s;
+	font-size: 20px;
+	cursor: pointer;
+}
+.allList li:hover {
+	opacity: 0.7;
+	color: rgb(11, 255, 255);
 }
