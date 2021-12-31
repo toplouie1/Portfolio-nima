@@ -12,11 +12,11 @@
 	background: -webkit-linear-gradient(#e554ff, #004bf5);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	opacity: 0.4;
+	opacity: 0.6;
 	font-weight: 500;
 }
 .hiColor:hover {
-	opacity: 0.9;
+	opacity: 1;
 }
 .firstP {
 	background: -webkit-linear-gradient(#a2fffb, #004bf5);

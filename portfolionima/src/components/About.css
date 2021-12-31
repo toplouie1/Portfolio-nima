@@ -6,7 +6,7 @@
 }
 .aboutHeading {
 	font-size: 72px;
-	background: -webkit-linear-gradient(#5d88ff, #c4c8ff);
+	background: -webkit-linear-gradient(#c4ff9f, #001cff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -23,7 +23,7 @@ p {
 	font-size: 20px;
 }
 h3 {
-	background: -webkit-linear-gradient(#5d88ff, #c4c8ff);
+	background: -webkit-linear-gradient(#c4ff9f, #001cff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-top: 100px;

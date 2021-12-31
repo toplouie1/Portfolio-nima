@@ -16,21 +16,30 @@ function Projects() {
 					</a>
 				</div>
 				<div>
-					<h2>- Youtube-Clone -</h2>
+					<h2>
+						<span className="descriptionSpan">-</span> Youtube-Clone{" "}
+						<span className="descriptionSpan">-</span>
+					</h2>
 					<p className="summaryP">
-						This is a Youtube-clone was done using React javascript ,
-						Youtube-react. You will be able to search all youtube videos and its
-						all so dynamic .
+						This is a Youtube-clone that was done using{" "}
+						<span className="descriptionSpan">React javascript</span>,
+						Youtube-react. Had to use the Youtube-Api inorder to get the
+						information . You will be able to search all youtube videos and its
+						all so <span className="descriptionSpan">Responsive</span> .
 					</p>
 				</div>
 			</div>
 
 			<div className="project">
 				<div>
-					<h2>- Calculator -</h2>
+					<h2>
+						<span className="descriptionSpan">-</span> Calculator{" "}
+						<span className="descriptionSpan">-</span>{" "}
+					</h2>
 					<p className="summaryP leftSummary">
-						This is a Calculator App , That you will be able to simple
-						calclulation . It was done using React JavaScrist
+						This is a Calculator App , That you will be able to do simple
+						calclulation . It was done using
+						<span className="descriptionSpan"> React JavaScrist</span>
 					</p>
 				</div>
 				<div>
@@ -50,20 +59,28 @@ function Projects() {
 					</a>
 				</div>
 				<div>
-					<h2>- Weather-App -</h2>
+					<h2>
+						<span className="descriptionSpan">-</span> Weather-App{" "}
+						<span className="descriptionSpan">-</span>{" "}
+					</h2>
 					<p className="summaryP">
 						This is a Weather-App where you will be able to search for Weather
-						by inputing city/Country , It was made using Vanilla JavaScript
+						by inputing city/Country , It was made using
+						<span className="descriptionSpan"> Vanilla JavaScript</span>
 					</p>
 				</div>
 			</div>
 
 			<div className="project">
 				<div>
-					<h2>- Pixel-Painter -</h2>
+					<h2>
+						<span className="descriptionSpan">-</span> Pixel-Painter{" "}
+						<span className="descriptionSpan">-</span>{" "}
+					</h2>
 					<p className="summaryP leftSummary">
 						Pixel Painter Website you will be able to draw choosing the color's
-						you pick and delete / reset , It was made using Vanilla JavaScript
+						you pick and delete / reset , It was made using{" "}
+						<span className="descriptionSpan">Vanilla JavaScript</span>
 					</p>
 				</div>
 				<div>

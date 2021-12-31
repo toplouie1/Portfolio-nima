@@ -18,46 +18,42 @@ function About() {
 		<div id="aboutContainer">
 			<h1 className="aboutHeading">About mé</h1>
 			<p className="aboutParagraph">
-				Hey, my name is Nima Sherpa. I am a full stack software engineer.
+				Hey, my name is Nima Sherpa. I am a full stack software developer.
 			</p>
 			<p>
 				My journey into software development began when I started thinking about
 				what career I should choose that I love.
 			</p>
 			<p>
-				I finally found web development. I really wanted to get involved with
-				tech so I wanted to find a way to learn coding as soon as possible ,
+				I finally found web development and the first few line of code I feel in
+				love with creating something through Your knowledge of tech.
 			</p>
 			<p>
-				that led me to Pursuit where they will teach you how to code and make
-				you successful in future .
+				that led me to Pursuit bootcamp where they help you become your best
+				self while teaching you everything that is needed inorder to be
+				succesful.
 			</p>
-			<p>
-				Since then I have been practicing learning code and it gives me
-				satisfaction after I finish some type of a project.
-			</p>
-			<p>My goal is to be an efficient coder by the end of the pursuit days.</p>
+			<p>Since then I have been practicing inorder to be an efficent coder .</p>
 			<h3> Skills </h3>
 
 			<div className="skills">
-				{" "}
 				<img src={html} alt="html" />
 				<img src={css} alt="css" />
 				<img src={js} alt="js" />
-				<img src={react} alt="react" />
-				<img src={boot} alt="boot" />
-				<img src={git} alt="git" />
-				<img src={express} alt="express" />
 				<img src={node} alt="node" />
+				<img src={express} alt="express" />
+				<img src={react} alt="react" />
 				<img src={sql} alt="sql" />
 				<img src={api} alt="api" />
+				<img src={git} alt="git" />
+				<img src={boot} alt="boot" />
 				<img src={npm} alt="npm" />
 				<img src={vscode} alt="vscode" />
 			</div>
 
 			<p className="skillss">
-				HTML/CSS, JavaScript, Node, Express, React/Redux, PostgreSQL, APIs, Git,
-				Data Structures,
+				- HTML/CSS - JavaScript - Node - Express - React/Redux - PostgreSQL -
+				APIs - Git - Data Structures,
 			</p>
 		</div>
 	);
