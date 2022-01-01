@@ -2,7 +2,9 @@
 	text-align: center;
 }
 
-h1 {
+.contactsHeader {
+	margin-top: 10%;
+	font-size: 40px;
 	text-align: center;
 	background: -webkit-linear-gradient(#b7b7b7, #464cff);
 	-webkit-background-clip: text;

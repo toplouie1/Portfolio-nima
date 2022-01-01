@@ -7,7 +7,7 @@ import arrow from "../images/arrow.png";
 function Contact() {
 	return (
 		<div id="contactsContainer">
-			<h1>Connect With Me</h1>
+			<div className="contactsHeader">Connect With Me</div>
 			<div className="contactSection">
 				<div className="emailSpot">Email : Toplv1999@gmail.com</div>
 

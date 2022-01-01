@@ -60,8 +60,8 @@ function Projects() {
 				</div>
 				<div>
 					<h2>
-						<span className="descriptionSpan">-</span> Weather-App{" "}
-						<span className="descriptionSpan">-</span>{" "}
+						<span className="descriptionSpan">-</span> Weather-App
+						<span className="descriptionSpan">-</span>
 					</h2>
 					<p className="summaryP">
 						This is a Weather-App where you will be able to search for Weather

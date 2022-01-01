@@ -8,23 +8,23 @@ function Nav() {
 			<div id="mainNav">
 				<img className="logo" src={main} alt="logo" />
 				<ul className="allList">
-					<li>
+					<li className="eachLi">
 						<a href="#aboutContainer">About</a>
 					</li>
-					<li>
+					<li className="eachLi">
 						<a href="#projectsContainer">Projects</a>
 					</li>
-					<li>
+					<li className="eachLi">
 						<a href="#contactsContainer">Contact</a>
 					</li>
-					<button className="navbutton">
+					<li className="navbutton">
 						<a
 							href="https://docs.google.com/document/d/1Ac24F1WTKly_uBn3fmcRcmoDj3NxFjFpwNPN-4fN4oU/edit#heading=h.aq0eiavth27t"
 							target="blank"
 						>
 							Resume
 						</a>
-					</button>
+					</li>
 				</ul>
 			</div>
 		</div>

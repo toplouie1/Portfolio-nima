@@ -24,7 +24,6 @@ a {
 	opacity: 1;
 }
 .navbutton {
-	background-color: #111;
 	color: white;
 	cursor: pointer;
 	border: none;
@@ -32,6 +31,9 @@ a {
 	font-size: 20px;
 	transition: 0.6s ease-out;
 	font-weight: 800;
+	list-style: none;
+	padding: 0px 5px;
+	border-radius: 4px;
 }
 .navbutton:hover {
 	border: 1px solid #004bf5;
@@ -40,14 +42,14 @@ a {
 	display: flex;
 	justify-content: space-evenly;
 }
-.allList li {
+.allList .eachLi {
 	list-style: none;
 	margin: 0 60px;
 	transition: 0.1s ease-in-out;
 	font-size: 20px;
 	cursor: pointer;
 }
-.allList li:hover {
+.allList .eachLi:hover {
 	border-bottom: 4px solid #3471ff;
 	opacity: 0.7;
 }
