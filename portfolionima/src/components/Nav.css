@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 #navContainer {
 	margin: 10px 60px;
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -47,4 +50,11 @@ a {
 .allList li:hover {
 	border-bottom: 4px solid #3471ff;
 	opacity: 0.7;
+}
+.arrowContainer {
+	display: flex;
+	justify-content: space-evenly;
+}
+.arrow {
+	height: 80px;
 }

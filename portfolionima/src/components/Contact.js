@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import github from "../images/github.png";
 import linked from "../images/link.png";
+import arrow from "../images/arrow.png";
 
 function Contact() {
 	return (
@@ -22,6 +23,14 @@ function Contact() {
 			</div>
 
 			<div className="footer">Built By Nima Sherpa...</div>
+			<div className="arrowContainer">
+				<a href="#mainNav">
+					<img className="arrow" src={arrow} alt="arrow that leads you up " />
+				</a>
+				<a href="#mainNav">
+					<img className="arrow" src={arrow} alt="arrow that leads you up " />
+				</a>
+			</div>
 		</div>
 	);
 }
