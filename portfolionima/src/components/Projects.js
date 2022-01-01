@@ -44,7 +44,11 @@ function Projects() {
 				</div>
 				<div>
 					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
-						<img className="imgs" src={calculator} alt="Calculater image" />
+						<img
+							className="imgs rightImg"
+							src={calculator}
+							alt="Calculater image"
+						/>
 					</a>
 				</div>
 			</div>
@@ -85,7 +89,11 @@ function Projects() {
 				</div>
 				<div>
 					<a href="https://toplouie1.github.io/8-0-events-lab/" target="blank">
-						<img className="imgs" src={pixel} alt="pixel painter img " />
+						<img
+							className="imgs rightImg"
+							src={pixel}
+							alt="pixel painter img "
+						/>
 					</a>
 				</div>
 			</div>

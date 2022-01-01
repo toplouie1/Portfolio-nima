@@ -1,5 +1,5 @@
 #homeContainer {
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: 900;
 	width: 100%;
 	padding-top: 2em;
@@ -13,7 +13,7 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	opacity: 0.6;
-	font-weight: 500;
+	font-weight: 100;
 }
 .hiColor:hover {
 	opacity: 1;
@@ -23,4 +23,39 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: 0.6s;
+	animation: the-second 0.6s ease-in-out;
+}
+
+.firstOne {
+	animation: the-first 1.5s ease-in-out;
+}
+
+@keyframes the-first {
+	0% {
+		margin-left: -2000px;
+		opacity: 0;
+	}
+	33% {
+		opacity: 0.3;
+	}
+	66% {
+		opacity: 0.6;
+	}
+}
+
+.secondOne {
+	animation: the-second 0.8s ease-in-out;
+}
+
+@keyframes the-second {
+	0% {
+		opacity: 0;
+		margin-right: -2000px;
+	}
+	33% {
+		opacity: 0.3;
+	}
+	66% {
+		opacity: 0.6;
+	}
 }
