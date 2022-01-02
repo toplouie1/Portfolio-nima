@@ -23,7 +23,7 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: 0.6s;
-	animation: the-second 0.6s ease-in-out;
+	/* animation: the-second 0.6s ease-in-out; */
 }
 
 .firstOne {
@@ -32,30 +32,18 @@
 
 @keyframes the-first {
 	0% {
-		margin-left: -2000px;
+		margin-left: -30px;
 		opacity: 0;
-	}
-	33% {
-		opacity: 0.3;
-	}
-	66% {
-		opacity: 0.6;
 	}
 }
 
-.secondOne {
-	animation: the-second 0.8s ease-in-out;
+.second-One {
+	animation: the-second 0.6s ease-in-out;
 }
 
 @keyframes the-second {
 	0% {
 		opacity: 0;
-		margin-right: -2000px;
-	}
-	33% {
-		opacity: 0.3;
-	}
-	66% {
-		opacity: 0.6;
+		margin-right: -30px;
 	}
 }
