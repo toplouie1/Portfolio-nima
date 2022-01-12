@@ -53,7 +53,9 @@
 	color: #a2ffc3;
 }
 .technologyTitle {
+	border-bottom: 1px solid royalblue;
 	color: royalblue;
+	line-height: 2;
 }
 
 @media only screen and (max-width: 1300px) {

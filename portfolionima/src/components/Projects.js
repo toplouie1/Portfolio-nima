@@ -21,13 +21,12 @@ function Projects() {
 						<span className="descriptionSpan">-</span>
 					</h2>
 					<p className="summaryP">
-						This is a Youtube-clone that was done using{" "}
-						<span className="descriptionSpan">React javascript</span>,
-						Youtube-react. Had to use the Youtube-Api inorder to get the
+						<span className="technologyTitle">Description</span> : This is a
+						Youtube-clone , Had to use the Youtube-Api inorder to get the
 						information . You will be able to search all youtube videos and its
-						all so <span className="descriptionSpan">Responsive</span> .
+						all so Responsive .
 						<p>
-							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react - Youtube-Api - Youtube-react .
 						</p>
 					</p>
@@ -41,11 +40,10 @@ function Projects() {
 						<span className="descriptionSpan">-</span>{" "}
 					</h2>
 					<p className="summaryP leftSummary">
-						This is a Calculator App , That you will be able to do simple
-						calclulation . It was done using
-						<span className="descriptionSpan"> React JavaScrist</span>
+						<span className="technologyTitle">Description</span> : This is a
+						Calculator App , That you will be able to do simple calclulation .
 						<p>
-							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react .
 						</p>
 					</p>
@@ -76,11 +74,11 @@ function Projects() {
 						<span className="descriptionSpan">-</span>
 					</h2>
 					<p className="summaryP">
-						This is a Weather-App where you will be able to search for Weather
-						by inputing city/Country , It was made using
-						<span className="descriptionSpan"> Vanilla JavaScript</span>
+						<span className="technologyTitle">Description</span> : This is a
+						Weather-App where you will be able to search for Weather by inputing
+						city/Country .
 						<p>
-							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript .
 						</p>
 					</p>
@@ -94,11 +92,11 @@ function Projects() {
 						<span className="descriptionSpan">-</span>{" "}
 					</h2>
 					<p className="summaryP leftSummary">
-						Pixel Painter Website you will be able to draw choosing the color's
-						you pick and delete / reset , It was made using{" "}
-						<span className="descriptionSpan">Vanilla JavaScript</span>
+						<span className="technologyTitle">Description</span> : Pixel Painter
+						Website you will be able to draw choosing the color's you pick and
+						delete / reset .
 						<p>
-							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript .
 						</p>
 					</p>
