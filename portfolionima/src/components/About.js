@@ -18,7 +18,7 @@ function About() {
 		<div id="aboutContainer">
 			<h1 className="aboutHeading">About mé</h1>
 			<p className="aboutParagraph">
-				Hey, my name is Nima Sherpa. I am a full stack software developer.
+				Hey, my name is Nima Sherpa. I am a full stack web developer.
 			</p>
 			<p>
 				My journey into software development began when I started thinking about
@@ -53,7 +53,7 @@ function About() {
 
 			<p className="skillss">
 				- HTML/CSS - JavaScript - Node - Express - React/Redux - PostgreSQL -
-				APIs - Git - Data Structures,
+				APIs - Git - Boot Strap - npm - Data Structures,
 			</p>
 		</div>
 	);

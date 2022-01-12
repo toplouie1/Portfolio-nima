@@ -105,4 +105,7 @@
 	#navContainer {
 		margin: 5px;
 	}
+	.navbutton {
+		display: none;
+	}
 }
