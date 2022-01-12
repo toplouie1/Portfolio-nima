@@ -52,6 +52,9 @@
 .descriptionSpan {
 	color: #a2ffc3;
 }
+.technologyTitle {
+	color: royalblue;
+}
 
 @media only screen and (max-width: 1300px) {
 	.imgs {

@@ -26,6 +26,10 @@ function Projects() {
 						Youtube-react. Had to use the Youtube-Api inorder to get the
 						information . You will be able to search all youtube videos and its
 						all so <span className="descriptionSpan">Responsive</span> .
+						<p>
+							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							Html - Css - javascript - react - Youtube-Api - Youtube-react .
+						</p>
 					</p>
 				</div>
 			</div>
@@ -40,6 +44,10 @@ function Projects() {
 						This is a Calculator App , That you will be able to do simple
 						calclulation . It was done using
 						<span className="descriptionSpan"> React JavaScrist</span>
+						<p>
+							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							Html - Css - javascript - react .
+						</p>
 					</p>
 				</div>
 				<div>
@@ -71,6 +79,10 @@ function Projects() {
 						This is a Weather-App where you will be able to search for Weather
 						by inputing city/Country , It was made using
 						<span className="descriptionSpan"> Vanilla JavaScript</span>
+						<p>
+							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							Html - Css - javascript .
+						</p>
 					</p>
 				</div>
 			</div>
@@ -85,6 +97,10 @@ function Projects() {
 						Pixel Painter Website you will be able to draw choosing the color's
 						you pick and delete / reset , It was made using{" "}
 						<span className="descriptionSpan">Vanilla JavaScript</span>
+						<p>
+							<span className="technologyTitle">Technology Utilized :</span>{" "}
+							Html - Css - javascript .
+						</p>
 					</p>
 				</div>
 				<div>
