@@ -16,10 +16,10 @@ a {
 }
 .logo {
 	height: 60px;
-	border-radius: 90%;
 	transition: 0.6s ease-in;
 	opacity: 0.8;
-	animation: the-logo ease-in-out 2s;
+	animation: the-logo ease-in 2s;
+	border-radius: 90%;
 }
 .logo:hover {
 	opacity: 1;
@@ -27,12 +27,15 @@ a {
 @keyframes the-logo {
 	0% {
 		opacity: 0;
+		border-radius: 10%;
 	}
 	33% {
 		opacity: 0.3;
+		border-radius: 20%;
 	}
 	66% {
 		opacity: 0.6;
+		border-radius: 60%;
 	}
 }
 li {

@@ -6,6 +6,7 @@
 }
 .aboutHeading {
 	font-size: 72px;
+	font-weight: 100;
 	background: -webkit-linear-gradient(#c4ff9f, #001cff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

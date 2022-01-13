@@ -1,11 +1,12 @@
 #homeContainer {
 	font-size: 4em;
-	font-weight: 900;
+	font-weight: 0;
 	width: 100%;
 	padding-top: 2em;
 	text-align: center;
 	padding-left: 20px;
 	padding-bottom: 1em;
+	font-family: American Typewriter, serif;
 }
 .hiColor {
 	transition: 0.6s;
@@ -19,10 +20,12 @@
 	opacity: 1;
 }
 .firstP {
-	background: -webkit-linear-gradient(#a2fffb, #004bf5);
+	font-family: Arial, Helvetica, sans-serif;
+	background: -webkit-linear-gradient(#c4ff9f, #001cff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: 0.6s;
+	/* font-size: 1.7em; */
 }
 
 .firstOne {

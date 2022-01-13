@@ -9,8 +9,7 @@ function Home() {
 				<span className="firstP">Nimá sherpá</span>
 			</div>
 			<div className="second-One">
-				<span className="hiColor">I'm </span>
-				<span className="firstP">Full Stack Web Developer...</span>
+				<span className="hiColor">I'm Full Stack Web Developer...</span>
 			</div>
 		</div>
 	);
