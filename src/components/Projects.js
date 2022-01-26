@@ -50,11 +50,7 @@ function Projects() {
 				</div>
 				<div>
 					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
-						<img
-							className="imgs rightImg"
-							src={calculator}
-							alt="Calculater image"
-						/>
+						<img className="imgs rightImg" src={calculator} alt="Calculater" />
 					</a>
 				</div>
 			</div>
