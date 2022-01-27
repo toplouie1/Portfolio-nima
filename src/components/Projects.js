@@ -31,6 +31,15 @@ function Projects() {
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react - Youtube-Api - Youtube-react .
 						</p>
+						<p>
+							<a
+								className="technologyTitle"
+								href="https://github.com/toplouie1/youtube-clone"
+								target="blank"
+							>
+								Code
+							</a>
+						</p>
 					</p>
 				</div>
 			</div>
@@ -49,6 +58,15 @@ function Projects() {
 						<p>
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react - Express - node .
+						</p>
+						<p>
+							<a
+								className="technologyTitle"
+								href="https://github.com/toplouie1/Fe-Budget"
+								target="blank"
+							>
+								Code
+							</a>
 						</p>
 					</p>
 				</div>
@@ -84,6 +102,13 @@ function Projects() {
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript .
 						</p>
+						<a
+							className="technologyTitle"
+							href="https://github.com/toplouie1/8-0-weather-app-project"
+							target="blank"
+						>
+							Code
+						</a>
 					</p>
 				</div>
 			</div>
@@ -101,6 +126,13 @@ function Projects() {
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react .
 						</p>
+						<a
+							className="technologyTitle"
+							href="https://github.com/toplouie1/FSW-React-Calculator"
+							target="blank"
+						>
+							Code
+						</a>
 					</p>
 				</div>
 				<div>
