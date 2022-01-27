@@ -3,7 +3,7 @@ import "./Projects.css";
 import calculator from "../images/calculator.png";
 import youtube from "../images/youtubeClone.png";
 import weather from "../images/weather.png";
-import pixel from "../images/pixelPainter.png";
+// import pixel from "../images/pixelPainter.png";
 import Budget from "../images/budget.png";
 
 function Projects() {
@@ -54,7 +54,7 @@ function Projects() {
 				</div>
 				<div>
 					<a
-						href="https://practical-meninsky-218376.netlify.app"
+						href="https://practical-meninsky-218376.netlify.app/transactions"
 						target="blank"
 					>
 						<img className="imgs rightImg" src={Budget} alt="Calculater" />
