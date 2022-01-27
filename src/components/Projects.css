@@ -23,7 +23,7 @@
 .imgs {
 	height: 300px;
 	transition: ease-in 0.3s;
-	box-shadow: 60px -16px rgb(37, 44, 44);
+	box-shadow: 60px -16px rgb(145, 148, 148);
 	opacity: 0.7;
 }
 .imgs:hover {
@@ -33,9 +33,10 @@
 }
 .rightImg {
 	transition: ease-in 0.3s;
+	box-shadow: -60px 16px rgb(145, 148, 148);
 }
 .rightImg:hover {
-	box-shadow: -60px 16px rgb(226, 230, 230);
+	box-shadow: 60px -16px rgb(226, 230, 230);
 }
 .summaryP {
 	background-color: rgb(6 6 8 / 70%);

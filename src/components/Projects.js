@@ -4,35 +4,12 @@ import calculator from "../images/calculator.png";
 import youtube from "../images/youtubeClone.png";
 import weather from "../images/weather.png";
 import pixel from "../images/pixelPainter.png";
+import Budget from "../images/budget.png";
 
 function Projects() {
 	return (
 		<div id="projectsContainer">
 			<h1 className="headingProjects">projécts</h1>
-
-			<div className="project">
-				<div>
-					<h2>
-						<span className="descriptionSpan">-</span> Budget App{" "}
-						<span className="descriptionSpan">-</span>{" "}
-					</h2>
-					<p className="summaryP leftSummary">
-						<span className="technologyTitle">Description</span> : This is a
-						fullstack Budget App That helps you maintain your financial and keep
-						track of your balance where you would be able to CRUD - Create -
-						Read - Update - Delete
-						<p>
-							<span className="technologyTitle">Technology Utilized</span> :
-							Html - Css - javascript - react - Express - node .
-						</p>
-					</p>
-				</div>
-				<div>
-					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
-						<img className="imgs rightImg" src={calculator} alt="Calculater" />
-					</a>
-				</div>
-			</div>
 
 			<div className="project">
 				<div>
@@ -61,21 +38,26 @@ function Projects() {
 			<div className="project">
 				<div>
 					<h2>
-						<span className="descriptionSpan">-</span> Calculator{" "}
+						<span className="descriptionSpan">-</span> Budget App{" "}
 						<span className="descriptionSpan">-</span>{" "}
 					</h2>
 					<p className="summaryP leftSummary">
 						<span className="technologyTitle">Description</span> : This is a
-						Calculator App , That you will be able to do simple calclulation .
+						fullstack Budget App That helps you maintain your financial and keep
+						track of your balance where you would be able to CRUD - Create -
+						Read - Update - Delete
 						<p>
 							<span className="technologyTitle">Technology Utilized</span> :
-							Html - Css - javascript - react .
+							Html - Css - javascript - react - Express - node .
 						</p>
 					</p>
 				</div>
 				<div>
-					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
-						<img className="imgs rightImg" src={calculator} alt="Calculater" />
+					<a
+						href="https://practical-meninsky-218376.netlify.app"
+						target="blank"
+					>
+						<img className="imgs rightImg" src={Budget} alt="Calculater" />
 					</a>
 				</div>
 			</div>
@@ -109,6 +91,28 @@ function Projects() {
 			<div className="project">
 				<div>
 					<h2>
+						<span className="descriptionSpan">-</span> Calculator{" "}
+						<span className="descriptionSpan">-</span>{" "}
+					</h2>
+					<p className="summaryP leftSummary">
+						<span className="technologyTitle">Description</span> : This is a
+						Calculator App , That you will be able to do simple calclulation .
+						<p>
+							<span className="technologyTitle">Technology Utilized</span> :
+							Html - Css - javascript - react .
+						</p>
+					</p>
+				</div>
+				<div>
+					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
+						<img className="imgs rightImg" src={calculator} alt="Calculater" />
+					</a>
+				</div>
+			</div>
+
+			{/* <div className="project">
+				<div>
+					<h2>
 						<span className="descriptionSpan">-</span> Pixel-Painter{" "}
 						<span className="descriptionSpan">-</span>{" "}
 					</h2>
@@ -131,7 +135,7 @@ function Projects() {
 						/>
 					</a>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }
