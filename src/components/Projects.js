@@ -72,7 +72,7 @@ function Projects() {
 				</div>
 				<div>
 					<a
-						href="https://practical-meninsky-218376.netlify.app/transactions"
+						href="https://practical-meninsky-218376.netlify.app"
 						target="blank"
 					>
 						<img className="imgs rightImg" src={Budget} alt="Calculater" />
