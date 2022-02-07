@@ -36,7 +36,7 @@
 	box-shadow: -60px 16px rgb(145, 148, 148);
 }
 .rightImg:hover {
-	box-shadow: 60px -16px rgb(226, 230, 230);
+	box-shadow: 60px -5px rgb(226, 230, 230);
 }
 .summaryP {
 	background-color: rgb(6 6 8 / 70%);
@@ -75,6 +75,7 @@
 	.summaryP {
 		padding: 60px;
 		width: 300px;
+		font-size: 10px;
 	}
 }
 
@@ -97,9 +98,10 @@
 	}
 	.imgs {
 		height: 150px;
+		box-shadow: none;
 	}
 	.imgs:hover {
-		height: 170px;
+		height: 155px;
 	}
 	.summaryP {
 		padding: 60px;
