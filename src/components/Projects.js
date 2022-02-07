@@ -24,7 +24,7 @@ function Projects() {
 					</h2>
 					<p className="summaryP">
 						<span className="technologyTitle">Description</span> : This is a
-						Youtube-clone , Had to use the Youtube-Api inorder to get the
+						Youtube-clone , I Had to use the Youtube-Api inorder to get the
 						information . You will be able to search all youtube videos and its
 						all so Responsive .
 						<p>
@@ -37,7 +37,7 @@ function Projects() {
 								href="https://github.com/toplouie1/youtube-clone"
 								target="blank"
 							>
-								Code
+								- Code
 							</a>
 						</p>
 					</p>
@@ -53,8 +53,8 @@ function Projects() {
 					<p className="summaryP leftSummary">
 						<span className="technologyTitle">Description</span> : This is a
 						fullstack Budget App That helps you maintain your financial and keep
-						track of your balance where you would be able to CRUD - Create -
-						Read - Update - Delete
+						track of your balance . It has functionality such as - Create - Read
+						- Update - Delete
 						<p>
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react - Express - node .
@@ -65,7 +65,7 @@ function Projects() {
 								href="https://github.com/toplouie1/Fe-Budget"
 								target="blank"
 							>
-								Code
+								- Code
 							</a>
 						</p>
 					</p>
@@ -107,7 +107,7 @@ function Projects() {
 							href="https://github.com/toplouie1/8-0-weather-app-project"
 							target="blank"
 						>
-							Code
+							- Code
 						</a>
 					</p>
 				</div>
@@ -131,7 +131,7 @@ function Projects() {
 							href="https://github.com/toplouie1/FSW-React-Calculator"
 							target="blank"
 						>
-							Code
+							- Code
 						</a>
 					</p>
 				</div>
@@ -141,33 +141,6 @@ function Projects() {
 					</a>
 				</div>
 			</div>
-
-			{/* <div className="project">
-				<div>
-					<h2>
-						<span className="descriptionSpan">-</span> Pixel-Painter{" "}
-						<span className="descriptionSpan">-</span>{" "}
-					</h2>
-					<p className="summaryP leftSummary">
-						<span className="technologyTitle">Description</span> : Pixel Painter
-						Website you will be able to draw choosing the color's you pick and
-						delete / reset .
-						<p>
-							<span className="technologyTitle">Technology Utilized</span> :
-							Html - Css - javascript .
-						</p>
-					</p>
-				</div>
-				<div>
-					<a href="https://toplouie1.github.io/8-0-events-lab/" target="blank">
-						<img
-							className="imgs rightImg"
-							src={pixel}
-							alt="pixel painter img "
-						/>
-					</a>
-				</div>
-			</div> */}
 		</div>
 	);
 }
