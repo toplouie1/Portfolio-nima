@@ -22,27 +22,22 @@
 .imgs {
 	height: 300px;
 	transition: ease-in 0.3s;
-	box-shadow: 60px -16px rgb(145, 148, 148);
 	opacity: 0.7;
+	box-shadow: 60px -5px rgb(226, 230, 230);
+	border: 2px solid rgb(92, 92, 92);
 }
 .imgs:hover {
-	height: 320px;
+	height: 310px;
 	opacity: 0.8;
-	box-shadow: 60px 16px rgb(226, 230, 230);
-}
-.rightImg {
-	transition: ease-in 0.3s;
-	box-shadow: -60px 16px rgb(145, 148, 148);
-}
-.rightImg:hover {
-	box-shadow: 60px -5px rgb(226, 230, 230);
+	box-shadow: 60px 5px rgb(226, 230, 230);
+	border: none;
 }
 .summaryP {
 	background-color: rgb(6 6 8 / 70%);
 	color: #c7c7c7;
-	padding: 60px;
+	padding: 30px;
 	width: 500px;
-	box-shadow: 3px 3px #1e1b1b;
+	box-shadow: 1px 3px 3px rgb(44, 43, 43);
 	transition: 0.3s;
 }
 .summaryP:hover {
@@ -100,10 +95,10 @@
 		box-shadow: none;
 	}
 	.imgs:hover {
-		height: 155px;
+		height: 154px;
+		box-shadow: none;
 	}
 	.summaryP {
-		padding: 60px;
 		width: 100px;
 	}
 	.logo {
