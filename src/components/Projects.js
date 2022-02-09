@@ -22,15 +22,15 @@ function Projects() {
 						<span className="descriptionSpan">-</span> Youtube-Clone{" "}
 						<span className="descriptionSpan">-</span>
 					</h2>
-					<p className="summaryP">
+					<div className="summaryP">
 						<span className="technologyTitle">Description</span> : This is a
 						Youtube-clone , I Had to use the Youtube-Api inorder to get the
 						information . You will be able to search all youtube videos and its
 						all so Responsive .
-						<p>
+						<div>
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react - Youtube-Api - Youtube-react .
-						</p>
+						</div>
 						<p>
 							<a
 								className="technologyTitle"
@@ -40,7 +40,7 @@ function Projects() {
 								- Code
 							</a>
 						</p>
-					</p>
+					</div>
 				</div>
 			</div>
 
@@ -50,15 +50,15 @@ function Projects() {
 						<span className="descriptionSpan">-</span> Budget App{" "}
 						<span className="descriptionSpan">-</span>{" "}
 					</h2>
-					<p className="summaryP leftSummary">
+					<div className="summaryP leftSummary">
 						<span className="technologyTitle">Description</span> : This is a
 						fullstack Budget App That helps you maintain your financial and keep
 						track of your balance . It has functionality such as - Create - Read
 						- Update - Delete
-						<p>
+						<div>
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react - Express - node .
-						</p>
+						</div>
 						<p>
 							<a
 								className="technologyTitle"
@@ -68,7 +68,7 @@ function Projects() {
 								- Code
 							</a>
 						</p>
-					</p>
+					</div>
 				</div>
 				<div>
 					<a
@@ -94,14 +94,14 @@ function Projects() {
 						<span className="descriptionSpan">-</span> Weather-App
 						<span className="descriptionSpan">-</span>
 					</h2>
-					<p className="summaryP">
+					<div className="summaryP">
 						<span className="technologyTitle">Description</span> : This is a
 						Weather-App where you will be able to search for Weather by inputing
 						city/Country .
-						<p>
+						<div>
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript .
-						</p>
+						</div>
 						<a
 							className="technologyTitle"
 							href="https://github.com/toplouie1/8-0-weather-app-project"
@@ -109,7 +109,7 @@ function Projects() {
 						>
 							- Code
 						</a>
-					</p>
+					</div>
 				</div>
 			</div>
 
@@ -119,13 +119,13 @@ function Projects() {
 						<span className="descriptionSpan">-</span> Calculator{" "}
 						<span className="descriptionSpan">-</span>{" "}
 					</h2>
-					<p className="summaryP leftSummary">
+					<div className="summaryP leftSummary">
 						<span className="technologyTitle">Description</span> : This is a
 						Calculator App , That you will be able to do simple calclulation .
-						<p>
+						<div>
 							<span className="technologyTitle">Technology Utilized</span> :
 							Html - Css - javascript - react .
-						</p>
+						</div>
 						<a
 							className="technologyTitle"
 							href="https://github.com/toplouie1/FSW-React-Calculator"
@@ -133,7 +133,7 @@ function Projects() {
 						>
 							- Code
 						</a>
-					</p>
+					</div>
 				</div>
 				<div>
 					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">

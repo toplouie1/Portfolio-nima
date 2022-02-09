@@ -53,21 +53,6 @@ li {
 	}
 }
 
-.navbutton {
-	color: white;
-	cursor: pointer;
-	border: none;
-	font-family: fantasy;
-	font-size: 20px;
-	transition: 0.6s ease-out;
-	font-weight: 800;
-	list-style: none;
-	padding: 0px 5px;
-	border-radius: 4px;
-}
-.navbutton:hover {
-	border: 1px solid #004bf5;
-}
 .allList {
 	display: flex;
 	justify-content: space-evenly;

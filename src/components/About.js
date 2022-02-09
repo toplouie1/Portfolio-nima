@@ -16,24 +16,27 @@ import vscode from "../skillsimg/vscode.png";
 function About() {
 	return (
 		<div id="aboutContainer">
-			<h1 className="aboutHeading">About mé</h1>
-			<p className="aboutParagraph">
-				Hey, my name is Nima Sherpa. I am a full stack web developer.
-			</p>
-			<p>
-				My journey into software development began when I started thinking about
-				what career I should choose that I love.
-			</p>
-			<p>
-				I finally found web development and the first few line of code I feel in
-				love with creating something through Your knowledge of tech.
-			</p>
-			<p>
-				that led me to Pursuit bootcamp where they help you become your best
-				self while teaching you everything that is needed inorder to be
-				succesful.
-			</p>
-			<p>Since then I have been practicing inorder to be an efficent coder .</p>
+			<div className="aboutMain">
+				<h1 className="aboutHeading">About mé</h1>
+				<p>Hey, my name is Nima Sherpa. I am a full stack web developer.</p>
+				<p>
+					My journey into software development began when I started thinking
+					about what career I should choose that I love.
+				</p>
+				<p>
+					I finally found web development and the first few line of code I feel
+					in love with creating something through Your knowledge of tech.
+				</p>
+				<p>
+					that led me to Pursuit bootcamp where they help you become your best
+					self while teaching you everything that is needed inorder to be
+					succesful.
+				</p>
+				<p>
+					Since then I have been practicing inorder to be an efficent coder .
+				</p>
+			</div>
+
 			<h3> Skills </h3>
 
 			<div className="skills">

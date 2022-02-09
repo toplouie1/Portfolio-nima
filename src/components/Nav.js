@@ -17,7 +17,7 @@ function Nav() {
 					<li className="eachLi">
 						<a href="#contactsContainer">Contact</a>
 					</li>
-					<li className="navbutton">
+					<li className="eachLi">
 						<a
 							href="https://docs.google.com/document/d/1Ac24F1WTKly_uBn3fmcRcmoDj3NxFjFpwNPN-4fN4oU/edit#heading=h.aq0eiavth27t"
 							target="blank"
