@@ -8,7 +8,6 @@
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
-	/* background-color: rgb(6 6 8 / 100%); */
 	color: #c7c7c7;
 	padding: 30px;
 	width: 80%;
@@ -20,6 +19,7 @@
 	font-weight: 300;
 	font-size: 23px;
 }
+
 .aboutHeading {
 	font-size: 72px;
 	font-weight: 100;
@@ -29,19 +29,11 @@
 }
 
 .skills {
+	border-radius: 5px;
 	background-color: rgb(238, 238, 238);
 }
 .skills img {
 	margin: 6px;
-}
-p {
-	font-family: "Courier New", Courier, monospace;
-	font-weight: 100;
-	line-height: 1.4;
-	font-weight: 100;
-	text-align: center;
-	font-weight: 800;
-	font-size: 23px;
 }
 h3 {
 	background: -webkit-linear-gradient(#c4ff9f, #001cff);
@@ -50,4 +42,10 @@ h3 {
 	margin-top: 100px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+	.aboutMain {
+		font-size: 10px;
+	}
 }

@@ -89,11 +89,6 @@
 		font-size: 20px;
 		cursor: pointer;
 	}
-	.project {
-		display: grid;
-		grid-row: 2;
-		align-items: center;
-	}
 	.imgs {
 		height: 150px;
 		box-shadow: none;
