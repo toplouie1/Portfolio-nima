@@ -47,10 +47,6 @@
 .summaryP:hover {
 	box-shadow: 3px 3px #111;
 }
-.leftSummary {
-	margin-left: 100px;
-}
-
 .descriptionSpan {
 	color: royalblue;
 }
@@ -66,9 +62,6 @@
 	}
 	.imgs:hover {
 		height: 210px;
-	}
-	.leftSummary {
-		margin-left: 0px;
 	}
 	.summaryP {
 		padding: 60px;
@@ -97,8 +90,8 @@
 		height: 154px;
 		box-shadow: none;
 	}
-	.summaryP {
-		width: 100px;
+	h2 {
+		font-size: 25px;
 	}
 	.logo {
 		height: 50px;
@@ -111,5 +104,13 @@
 	}
 	.navbutton {
 		display: none;
+	}
+	.project {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 10em;
+	}
+	.project div {
+		margin: 10px;
 	}
 }
