@@ -18,11 +18,11 @@ function Projects() {
 					</a>
 				</div>
 				<div>
-					<h2>
-						<span className="descriptionSpan">-</span> Youtube-Clone{" "}
-						<span className="descriptionSpan">-</span>
-					</h2>
 					<div className="summaryP">
+						<h2>
+							<span className="descriptionSpan">-</span> Youtube-Clone{" "}
+							<span className="descriptionSpan">-</span>
+						</h2>
 						<span className="technologyTitle">Description</span> : This is a
 						Youtube-clone , I Had to use the Youtube-Api inorder to get the
 						information . You will be able to search all youtube videos and its
@@ -46,11 +46,19 @@ function Projects() {
 
 			<div className="project">
 				<div>
-					<h2>
-						<span className="descriptionSpan">-</span> Budget App{" "}
-						<span className="descriptionSpan">-</span>{" "}
-					</h2>
-					<div className="summaryP leftSummary">
+					<a
+						href="https://practical-meninsky-218376.netlify.app"
+						target="blank"
+					>
+						<img className="imgs rightImg" src={Budget} alt="Calculater" />
+					</a>
+				</div>
+				<div>
+					<div className="summaryP ">
+						<h2>
+							<span className="descriptionSpan">-</span> Budget App{" "}
+							<span className="descriptionSpan">-</span>{" "}
+						</h2>
 						<span className="technologyTitle">Description</span> : This is a
 						fullstack Budget App That helps you maintain your financial and keep
 						track of your balance . It has functionality such as - Create - Read
@@ -70,14 +78,6 @@ function Projects() {
 						</p>
 					</div>
 				</div>
-				<div>
-					<a
-						href="https://practical-meninsky-218376.netlify.app"
-						target="blank"
-					>
-						<img className="imgs rightImg" src={Budget} alt="Calculater" />
-					</a>
-				</div>
 			</div>
 
 			<div className="project">
@@ -90,11 +90,11 @@ function Projects() {
 					</a>
 				</div>
 				<div>
-					<h2>
-						<span className="descriptionSpan">-</span> Weather-App
-						<span className="descriptionSpan">-</span>
-					</h2>
 					<div className="summaryP">
+						<h2>
+							<span className="descriptionSpan">-</span> Weather-App
+							<span className="descriptionSpan">-</span>
+						</h2>
 						<span className="technologyTitle">Description</span> : This is a
 						Weather-App where you will be able to search for Weather by inputing
 						city/Country .
@@ -115,11 +115,16 @@ function Projects() {
 
 			<div className="project">
 				<div>
-					<h2>
-						<span className="descriptionSpan">-</span> Calculator{" "}
-						<span className="descriptionSpan">-</span>{" "}
-					</h2>
-					<div className="summaryP leftSummary">
+					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
+						<img className="imgs rightImg" src={calculator} alt="Calculater" />
+					</a>
+				</div>
+				<div>
+					<div className="summaryP">
+						<h2>
+							<span className="descriptionSpan">-</span> Calculator{" "}
+							<span className="descriptionSpan">-</span>{" "}
+						</h2>
 						<span className="technologyTitle">Description</span> : This is a
 						Calculator App , That you will be able to do simple calclulation .
 						<div>
@@ -134,11 +139,6 @@ function Projects() {
 							- Code
 						</a>
 					</div>
-				</div>
-				<div>
-					<a href="https://nima-sherpa-calculator.netlify.app/" target="blank">
-						<img className="imgs rightImg" src={calculator} alt="Calculater" />
-					</a>
 				</div>
 			</div>
 		</div>
