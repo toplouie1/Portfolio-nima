@@ -36,10 +36,10 @@ function Projects() {
 						<p>
 							<a
 								className="technologyTitle"
-								href="https://github.com/toplouie1/youtube-clone"
+								href="https://github.com/toplouie1/nima-final-project"
 								target="blank"
 							>
-								- Code
+								Code
 							</a>
 						</p>
 					</div>
@@ -71,7 +71,7 @@ function Projects() {
 								href="https://github.com/toplouie1/youtube-clone"
 								target="blank"
 							>
-								- Code
+								Code
 							</a>
 						</p>
 					</div>
@@ -106,7 +106,7 @@ function Projects() {
 								href="https://github.com/toplouie1/Fe-Budget"
 								target="blank"
 							>
-								- Code
+								Code
 							</a>
 						</p>
 					</div>
@@ -140,7 +140,7 @@ function Projects() {
 							href="https://github.com/toplouie1/8-0-weather-app-project"
 							target="blank"
 						>
-							- Code
+							Code
 						</a>
 					</div>
 				</div>
@@ -169,7 +169,7 @@ function Projects() {
 							href="https://github.com/toplouie1/FSW-React-Calculator"
 							target="blank"
 						>
-							- Code
+							Code
 						</a>
 					</div>
 				</div>
