@@ -5,12 +5,46 @@ import youtube from "../images/youtubeClone.png";
 import weather from "../images/weather.png";
 // import pixel from "../images/pixelPainter.png";
 import Budget from "../images/budget.png";
+import Watch from "../images/watches.png";
 
 function Projects() {
 	return (
 		<div id="projectsContainer">
 			<h1 className="headingProjects">projécts</h1>
 
+			<div className="project">
+				<div>
+					<a href="https://musing-euler-08cdda.netlify.app/" target="blank">
+						<img className="imgs" src={Watch} alt="Watch-Store-img" />
+					</a>
+				</div>
+				<div>
+					<div className="summaryP">
+						<h2>
+							<span className="descriptionSpan">-</span> Watch-Store
+							<span className="descriptionSpan">-</span>
+						</h2>
+						<span className="technologyTitle">Description</span> : This is a
+						fullstack ecommerce store for watches , that has the CRUD
+						functionality , you recieve the information from Postgres then its
+						manipulated and shown on the page
+						<div>
+							<span className="technologyTitle">Technology Utilized</span> :
+							Html - Css - javascript - react - express - react-three-fiber ,
+							material Ui , Postgress
+						</div>
+						<p>
+							<a
+								className="technologyTitle"
+								href="https://github.com/toplouie1/youtube-clone"
+								target="blank"
+							>
+								- Code
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
 			<div className="project">
 				<div>
 					<a href="https://youtube-clonana.netlify.app/" target="blank">
@@ -61,11 +95,10 @@ function Projects() {
 						</h2>
 						<span className="technologyTitle">Description</span> : This is a
 						fullstack Budget App That helps you maintain your financial and keep
-						track of your balance . It has functionality such as - Create - Read
-						- Update - Delete
+						track of your balance . It has functionality such as CRUD
 						<div>
 							<span className="technologyTitle">Technology Utilized</span> :
-							Html - Css - javascript - react - Express - node .
+							Html - Css - javascript - react - Express - Postgress
 						</div>
 						<p>
 							<a
