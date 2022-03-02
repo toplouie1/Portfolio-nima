@@ -18,20 +18,22 @@ function About() {
 		<div id="aboutContainer">
 			<div className="aboutMain">
 				<h1 className="aboutHeading">About mé</h1>
-				<p>Hey, my name is Nima Sherpa. I am a full stack web developer.</p>
+				<p>Hey, my name is Nima Sherpa. I am a Full stack Web Developer.</p>
 				<p>
-					My journey into software development began when I started thinking
-					about what career I should choose that I love.
+					My journey into software development began when i open an e-commerce
 				</p>
+				<p>store that led to making website from shopify.</p>
+				<p>When i saw how easy the website made the client job easier</p>
+				<p> it made me very curious and led me to the path of self-teaching.</p>
+				<p>I finally found web development and the first few line of code</p>
 				<p>
-					I finally found web development and the first few line of code I feel
-					in love with creating something through Your knowledge of tech.
+					I feel in love with creating something through Your knowledge of tech.
 				</p>
 				<p>
 					that led me to Pursuit bootcamp where they help you become your best
-					self while teaching you everything that is needed inorder to be
-					succesful.
+					self while
 				</p>
+				<p>teaching you everything that is needed inorder to be succesful.</p>
 				<p>
 					Since then I have been practicing inorder to be an efficent coder .
 				</p>
@@ -55,8 +57,8 @@ function About() {
 			</div>
 
 			<p className="skillss">
-				- HTML/CSS - JavaScript - Node - Express - React/Redux - PostgreSQL -
-				APIs - Git - Boot Strap - npm - Data Structures,
+				- HTML/CSS - JavaScript - Node - Express - React - PostgreSQL - APIs -
+				Git - Boot Strap - npm - Data Structures,
 			</p>
 		</div>
 	);
