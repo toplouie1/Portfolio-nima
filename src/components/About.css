@@ -10,7 +10,6 @@
 	margin-left: auto;
 	color: #c7c7c7;
 	padding: 30px;
-	width: 80%;
 	box-shadow: 1px 3px 6px rgb(44, 43, 43);
 	transition: 0.3s;
 	font-family: "Courier New", Courier, monospace;
@@ -29,11 +28,15 @@
 }
 
 .skills {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
 	border-radius: 5px;
 	background-color: rgb(238, 238, 238);
 }
 .skills img {
 	margin: 6px;
+	padding: 0px 10px;
 }
 h3 {
 	background: -webkit-linear-gradient(#c4ff9f, #001cff);
@@ -47,5 +50,8 @@ h3 {
 @media only screen and (max-width: 800px) {
 	.aboutMain {
 		font-size: 10px;
+	}
+	.resume {
+		display: none;
 	}
 }
