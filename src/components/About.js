@@ -58,7 +58,7 @@ function About() {
 
 			<p className="skillss">
 				- HTML/CSS - JavaScript - Node - Express - React - PostgreSQL - APIs -
-				Git - Boot Strap - npm - Data Structures,
+				Git - BootStrap - Modern-UI - react-three-fiber - npm - DSA,
 			</p>
 		</div>
 	);
