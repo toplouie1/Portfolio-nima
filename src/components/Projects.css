@@ -9,13 +9,13 @@
 }
 .headingProjects {
 	text-align: center;
-	margin-top: 100px;
+	font-family: 700;
 	font-size: 72px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	padding-bottom: 1em;
+	font-weight: 100;
 	background: -webkit-linear-gradient(#c4ff9f, #001cff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	margin: 2em;
 }
 .imgs {
 	height: 300px;
@@ -115,5 +115,8 @@
 	}
 	.summaryP {
 		width: 60%;
+	}
+	.headingProjects {
+		font-size: 50px;
 	}
 }

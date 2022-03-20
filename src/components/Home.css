@@ -20,15 +20,17 @@
 	opacity: 1;
 }
 .firstP {
-	font-family: Arial, Helvetica, sans-serif;
+	/* font-family: Arial, Helvetica, sans-serif; */
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	background: -webkit-linear-gradient(#c4ff9f, #001cff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	transition: 0.6s;
+	transition: 0.4s;
+	font-weight: 300;
 }
 
 .firstOne {
-	animation: the-first 1.5s ease-in-out;
+	animation: the-first 1s ease-in;
 }
 
 @keyframes the-first {
@@ -45,7 +47,7 @@
 }
 
 .second-One {
-	animation: the-second 0.6s ease-in-out;
+	animation: the-second 1s ease-in;
 }
 
 @keyframes the-second {

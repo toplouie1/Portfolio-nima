@@ -18,6 +18,14 @@
 	font-weight: 300;
 	font-size: 23px;
 }
+.headerSkills {
+	background: -webkit-linear-gradient(#c4ff9f, #001cff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 100px;
+	font-size: 40px;
+	font-weight: 200;
+}
 
 .aboutHeading {
 	font-size: 72px;
@@ -36,15 +44,7 @@
 }
 .skills img {
 	margin: 6px;
-	padding: 0px 10px;
-}
-h3 {
-	background: -webkit-linear-gradient(#c4ff9f, #001cff);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-top: 100px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 30px;
+	padding: 0px 5px;
 }
 
 @media only screen and (max-width: 800px) {

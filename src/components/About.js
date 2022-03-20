@@ -39,7 +39,7 @@ function About() {
 				</p>
 			</div>
 
-			<h3> Skills </h3>
+			<h3 className="headerSkills"> Skills </h3>
 
 			<div className="skills">
 				<img src={html} alt="html" />
