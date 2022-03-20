@@ -20,7 +20,7 @@ function About() {
 				<h1 className="aboutHeading">About mé</h1>
 				<p>Hey, my name is Nima Sherpa. I am a Full stack Web Developer.</p>
 				<p>
-					My journey into software development began when i open an e-commerce
+					My journey into software development began when i opened an e-commerce
 				</p>
 				<p>store that led to making website from shopify.</p>
 				<p>When i saw how easy the website made the client job easier</p>
