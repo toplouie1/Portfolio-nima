@@ -7,6 +7,7 @@ function Nav() {
 		<div id="navContainer">
 			<div id="mainNav">
 				<img className="logo" src={main} alt="logo" />
+				{/* <div className="logo">NNS</div> */}
 				<ul className="allList">
 					<li className="eachLi">
 						<a href="#aboutContainer">About</a>
