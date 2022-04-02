@@ -15,7 +15,7 @@
 	background-color: rgb(255, 248, 248);
 	border-radius: 50%;
 	text-align: center;
-	transition: ease-in 0.6s;
+	transition: ease-in 0.3s;
 }
 .githubImg:hover {
 	background-color: royalblue;
@@ -29,7 +29,7 @@
 }
 .linked {
 	margin: 10px;
-	transition: ease-in 0.6s;
+	transition: ease-in 0.3s;
 	height: 30px;
 	background-color: black;
 }
