@@ -21,7 +21,7 @@ function Projects() {
 				<div>
 					<div className="summaryP">
 						<h2>
-							<span className="descriptionSpan">-</span> Watch-Store
+							<span className="descriptionSpan">-</span> Watch-Store{" "}
 							<span className="descriptionSpan">-</span>
 						</h2>
 						<span className="technologyTitle">Description</span> : This is a
@@ -125,7 +125,7 @@ function Projects() {
 				<div>
 					<div className="summaryP">
 						<h2>
-							<span className="descriptionSpan">-</span> Weather-App
+							<span className="descriptionSpan">-</span> Weather-App{" "}
 							<span className="descriptionSpan">-</span>
 						</h2>
 						<span className="technologyTitle">Description</span> : This is a
