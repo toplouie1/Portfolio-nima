@@ -22,7 +22,7 @@
 	}
 }
 #homeContainer {
-	font-size: 4em;
+	font-size: 3.3em;
 	font-weight: 0;
 	width: 100%;
 	padding-top: 2em;
@@ -33,9 +33,10 @@
 }
 .hiColor {
 	transition: 0.6s;
-	background: -webkit-linear-gradient(#e554ff, #004bf5);
+	/* background: -webkit-linear-gradient(#e554ff, #004bf5);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
+	color: #c7c7c7;
 	opacity: 0.6;
 	font-weight: 100;
 }
