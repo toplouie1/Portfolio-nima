@@ -1,3 +1,13 @@
+.mainContainer {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin: 40px;
+}
+.homeImg {
+	height: 400px;
+	border-radius: 50%;
+	opacity: 0.8;
+}
 #homeContainer {
 	font-size: 4em;
 	font-weight: 0;
