@@ -54,4 +54,9 @@
 	.resume {
 		display: none;
 	}
+	.skills img {
+		margin: 6px;
+		padding: 5px 5px;
+		height: 40px;
+	}
 }

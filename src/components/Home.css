@@ -7,6 +7,19 @@
 	height: 400px;
 	border-radius: 50%;
 	opacity: 0.8;
+	animation: home_Img ease-in 1s;
+}
+
+@keyframes home_Img {
+	0% {
+		opacity: 0;
+	}
+	33% {
+		opacity: 0.3;
+	}
+	66% {
+		opacity: 0.6;
+	}
 }
 #homeContainer {
 	font-size: 4em;
@@ -71,5 +84,12 @@
 	#homeContainer {
 		font-size: 3em;
 		padding-bottom: 0.3em;
+	}
+	.mainContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.homeImg {
+		height: 300px;
 	}
 }
