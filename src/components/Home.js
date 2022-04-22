@@ -5,17 +5,17 @@ import home from "../images/home.webp";
 function Home() {
 	return (
 		<div className="mainContainer">
-			<div>
+			<div className="imgContainer">
 				<img className="homeImg" src={home} alt="homeimg" />
 			</div>
 
 			<div id="homeContainer">
 				<div className="firstOne">
-					<span className="hiColor">Hi, my name is </span>
+					<span className="hiColor">Hey, my name is </span>
 					<span className="firstP">Nimá sherpá</span>
 				</div>
 				<div className="second-One">
-					<span className="hiColor">I'm Full Stack Web Developer...</span>
+					<span className="hiColor">I'm Full Stack Web Developer</span>
 				</div>
 			</div>
 		</div>

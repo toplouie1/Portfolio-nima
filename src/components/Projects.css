@@ -70,10 +70,20 @@
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 450px) {
+	.project {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 820px) {
 	.imgs {
 		height: 150px;
 		box-shadow: none;
+	}
+	.discriptionContainer {
+		align-items: center;
 	}
 	.imgs:hover {
 		height: 154px;
@@ -95,8 +105,8 @@
 		display: none;
 	}
 	.project {
-		display: flex;
-		flex-direction: column;
+		/* display: flex;
+		flex-direction: column; */
 		padding-bottom: 10em;
 	}
 	.project div {

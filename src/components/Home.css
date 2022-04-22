@@ -25,6 +25,7 @@
 	font-size: 3.3em;
 	font-weight: 0;
 	width: 100%;
+	line-height: 1.2em;
 	padding-top: 2em;
 	text-align: center;
 	padding-left: 20px;
@@ -81,10 +82,11 @@
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 820px) {
 	#homeContainer {
 		font-size: 3em;
 		padding-bottom: 0.3em;
+		line-height: 1.5em;
 	}
 	.mainContainer {
 		display: flex;
@@ -92,5 +94,22 @@
 	}
 	.homeImg {
 		height: 300px;
+	}
+	.imgContainer {
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 450px) {
+	#homeContainer {
+		font-size: 2em;
+		padding-bottom: 0.3em;
+		line-height: 1.5em;
+	}
+	.mainContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.homeImg {
+		height: 200px;
 	}
 }

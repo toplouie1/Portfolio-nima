@@ -18,7 +18,7 @@ function Projects() {
 						<img className="imgs" src={Watch} alt="Watch-Store-img" />
 					</a>
 				</div>
-				<div>
+				<div className="discriptionContainer">
 					<div className="summaryP">
 						<h2>
 							<span className="descriptionSpan">-</span> Watch-Store{" "}
@@ -51,7 +51,7 @@ function Projects() {
 						<img className="imgs" src={youtube} alt="Youtube-clone-img" />
 					</a>
 				</div>
-				<div>
+				<div className="discriptionContainer">
 					<div className="summaryP">
 						<h2>
 							<span className="descriptionSpan">-</span> Youtube-Clone{" "}
@@ -87,7 +87,7 @@ function Projects() {
 						<img className="imgs rightImg" src={Budget} alt="Calculater" />
 					</a>
 				</div>
-				<div>
+				<div className="discriptionContainer">
 					<div className="summaryP ">
 						<h2>
 							<span className="descriptionSpan">-</span> Budget App{" "}
@@ -122,7 +122,7 @@ function Projects() {
 						<img className="imgs" src={weather} alt="weather img" />
 					</a>
 				</div>
-				<div>
+				<div className="discriptionContainer">
 					<div className="summaryP">
 						<h2>
 							<span className="descriptionSpan">-</span> Weather-App{" "}
@@ -152,7 +152,7 @@ function Projects() {
 						<img className="imgs rightImg" src={calculator} alt="Calculater" />
 					</a>
 				</div>
-				<div>
+				<div className="discriptionContainer">
 					<div className="summaryP">
 						<h2>
 							<span className="descriptionSpan">-</span> Calculator{" "}

@@ -34,9 +34,6 @@ function About() {
 					self while
 				</p>
 				<p>teaching you everything that is needed inorder to be succesful.</p>
-				<p>
-					Since then I have been practicing inorder to be an efficent coder .
-				</p>
 			</div>
 
 			<h3 className="headerSkills"> Skills </h3>
