@@ -1,6 +1,5 @@
 import React from "react";
 import "./Nav.css";
-import main from "../images/main.png";
 
 function Nav() {
 	return (
