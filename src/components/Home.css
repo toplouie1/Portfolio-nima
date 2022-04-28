@@ -1,13 +1,18 @@
 .mainContainer {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 1fr;
 	margin: 40px;
 }
+.imgContainer {
+	text-align: center;
+}
 .homeImg {
-	height: 400px;
+	text-align: center;
+	height: 320px;
 	border-radius: 50%;
 	opacity: 0.8;
 	animation: home_Img ease-in 1s;
+	padding: 0px;
 }
 
 @keyframes home_Img {
@@ -22,7 +27,7 @@
 	}
 }
 #homeContainer {
-	font-size: 3.3em;
+	font-size: 3.1em;
 	font-weight: 0;
 	width: 100%;
 	line-height: 1.2em;
@@ -34,24 +39,23 @@
 }
 .hiColor {
 	transition: 0.6s;
-	/* background: -webkit-linear-gradient(#e554ff, #004bf5);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
-	color: #c7c7c7;
-	opacity: 0.6;
+	font-size: 0.7em;
+	line-height: none;
+	color: hsl(0, 0%, 78%);
+	opacity: 0.8;
 	font-weight: 100;
 }
 .hiColor:hover {
 	opacity: 1;
 }
 .firstP {
-	/* font-family: Arial, Helvetica, sans-serif; */
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	background: -webkit-linear-gradient(#c4ff9f, #001cff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: 0.4s;
 	font-weight: 300;
+	font-size: 1em;
 }
 
 .firstOne {
@@ -60,7 +64,6 @@
 
 @keyframes the-first {
 	0% {
-		margin-left: -30px;
 		opacity: 0;
 	}
 	33% {
@@ -78,7 +81,6 @@
 @keyframes the-second {
 	0% {
 		opacity: 0;
-		margin-right: -30px;
 	}
 }
 
@@ -100,6 +102,9 @@
 	}
 }
 @media only screen and (max-width: 450px) {
+	.logo {
+		font-size: 1.2em;
+	}
 	#homeContainer {
 		font-size: 2em;
 		padding-bottom: 0.3em;

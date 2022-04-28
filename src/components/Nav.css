@@ -18,11 +18,13 @@ a {
 	justify-content: space-between;
 }
 .logo {
-	height: 50px;
+	/* height: 50px; */
+	padding-top: 12px;
+	font-size: 1.5em;
 	transition: 0.6s ease-in;
 	opacity: 0.8;
 	animation: the-logo ease-in 1.3s;
-	border-radius: 90%;
+	/* border-radius: 90%; */
 }
 .logo:hover {
 	opacity: 1;
@@ -66,6 +68,7 @@ li {
 	transition: 0.1s ease-in-out;
 	font-size: 18px;
 	cursor: pointer;
+	opacity: 0.8;
 }
 .allList .eachLi:hover {
 	opacity: 0.7;
