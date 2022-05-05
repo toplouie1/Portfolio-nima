@@ -13,6 +13,7 @@
 	opacity: 0.8;
 	animation: home_Img ease-in 1s;
 	padding: 0px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 @keyframes home_Img {
@@ -39,7 +40,7 @@
 }
 .hiColor {
 	transition: 0.6s;
-	font-size: 0.7em;
+	font-size: 0.6em;
 	line-height: none;
 	color: hsl(0, 0%, 78%);
 	opacity: 0.8;
@@ -99,6 +100,7 @@
 	}
 	.imgContainer {
 		text-align: center;
+		margin-top: 1em;
 	}
 }
 @media only screen and (max-width: 450px) {
@@ -116,5 +118,8 @@
 	}
 	.homeImg {
 		height: 200px;
+	}
+	.imgContainer {
+		margin-top: 2em;
 	}
 }

@@ -8,11 +8,11 @@ function Home() {
 			<div id="homeContainer">
 				<div className="firstOne">
 					<span className="hiColor">Hey, my name is </span>
-					<div className="firstP"> - Nimá sherpá</div>
+					<div className="firstP"> -Nimá sherpá-</div>
 				</div>
 				<div className="second-One">
 					<span className="hiColor">I'm</span>{" "}
-					<span className="firstP"> Full Stack Web Developer</span>
+					<span className="firstP"> -Full Stack Web Developer</span>
 				</div>
 			</div>
 			<div className="imgContainer">
