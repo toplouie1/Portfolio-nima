@@ -8,12 +8,12 @@
 }
 .homeImg {
 	text-align: center;
-	height: 320px;
+	height: 300px;
 	border-radius: 50%;
-	opacity: 0.8;
+	opacity: 0.9;
 	animation: home_Img ease-in 1s;
 	padding: 0px;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 @keyframes home_Img {

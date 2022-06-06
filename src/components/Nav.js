@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+// import nns from "../images/nns.png";
 
 function Nav() {
 	return (

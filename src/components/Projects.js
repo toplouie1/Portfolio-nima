@@ -2,15 +2,52 @@ import React from "react";
 import "./Projects.css";
 import calculator from "../images/calculator.png";
 import youtube from "../images/youtubeClone.png";
-import weather from "../images/weather.png";
+// import weather from "../images/weather.png";
 // import pixel from "../images/pixelPainter.png";
-import Budget from "../images/budget.png";
+// import Budget from "../images/budget.png";
+import eduk from "../images/eduk.png";
 import Watch from "../images/watches.png";
 
 function Projects() {
 	return (
 		<div id="projectsContainer">
 			<h1 className="headingProjects">projécts</h1>
+
+			<div className="project">
+				<div>
+					<a href="https://eduk.netlify.app/" target="blank">
+						<img className="imgs" src={eduk} alt="eduk-App" />
+					</a>
+				</div>
+				<div className="discriptionContainer">
+					<div className="summaryP">
+						<h2>
+							<span className="descriptionSpan">-</span> EDUK{" "}
+							<span className="descriptionSpan">-</span>
+						</h2>
+						<span className="technologyTitle">Description</span> : EDUK goal is
+						to connect high school, college students, minorities and residents
+						of underserved communities with resources they can't get elsewhere.
+						Whether it's be career skills , scholarships , grants, continued
+						learning, programs, etc., we want to bridge the the knowledge gap
+						within these underserved communities.
+						<div>
+							<span className="technologyTitle">Technology Utilized</span> :
+							Html - Css - javascript - react - express - boot-strap , multer,
+							bcrypt material Ui , Postgress , axios
+						</div>
+						<p>
+							<a
+								className="technologyTitle"
+								href="https://github.com/TheodoreBFrazier/NYC-Rose-App"
+								target="blank"
+							>
+								Code
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
 
 			<div className="project">
 				<div>
@@ -78,7 +115,7 @@ function Projects() {
 				</div>
 			</div>
 
-			<div className="project">
+			{/* <div className="project">
 				<div>
 					<a
 						href="https://practical-meninsky-218376.netlify.app"
@@ -111,40 +148,7 @@ function Projects() {
 						</p>
 					</div>
 				</div>
-			</div>
-
-			<div className="project">
-				<div>
-					<a
-						href="https://toplouie1.github.io/8-0-weather-app-project/"
-						target="blank"
-					>
-						<img className="imgs" src={weather} alt="weather img" />
-					</a>
-				</div>
-				<div className="discriptionContainer">
-					<div className="summaryP">
-						<h2>
-							<span className="descriptionSpan">-</span> Weather-App{" "}
-							<span className="descriptionSpan">-</span>
-						</h2>
-						<span className="technologyTitle">Description</span> : This is a
-						Weather-App where you will be able to search for Weather by inputing
-						city/Country .
-						<div>
-							<span className="technologyTitle">Technology Utilized</span> :
-							Html - Css - javascript .
-						</div>
-						<a
-							className="technologyTitle"
-							href="https://github.com/toplouie1/8-0-weather-app-project"
-							target="blank"
-						>
-							Code
-						</a>
-					</div>
-				</div>
-			</div>
+			</div> */}
 
 			<div className="project">
 				<div>
