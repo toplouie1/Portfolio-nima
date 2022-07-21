@@ -15,7 +15,7 @@ function Projects() {
 
 			<div className="project">
 				<div>
-					<a href="https://eduk.netlify.app/" target="blank">
+					<a href="https://edukapp.netlify.app/" target="blank">
 						<img className="imgs" src={eduk} alt="eduk-App" />
 					</a>
 				</div>
@@ -39,7 +39,7 @@ function Projects() {
 						<p>
 							<a
 								className="technologyTitle"
-								href="https://github.com/TheodoreBFrazier/NYC-Rose-App"
+								href="https://github.com/toplouie1/EDUK"
 								target="blank"
 							>
 								Code
