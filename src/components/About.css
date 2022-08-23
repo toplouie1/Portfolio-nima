@@ -53,6 +53,14 @@
 	padding: 0px 5px;
 }
 
+/* button */
+.skillButton {
+	cursor: pointer;
+	background: -webkit-linear-gradient(#c4ff9f, #001cff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .frontClosed {
 	margin: 30px;
 	text-align: left;
@@ -62,31 +70,28 @@
 .frontClosed li {
 	margin: 10px;
 }
-.backClosed {
-	margin: 30px;
-	list-style: none;
-	text-align: left;
-	color: #111;
-}
-.backClosed li {
-	margin: 10px;
-}
 
 .frontUl {
+	background-image: linear-gradient(
+		95.2deg,
+		rgba(173, 252, 234, 1) 26.8%,
+		rgba(192, 229, 246, 1) 64%
+	);
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	transition: all 0.2s ease-in-out;
+	background-color: white;
 	list-style: none;
 	text-align: left;
-	margin: 30px;
+	margin: 40px;
+	padding: 20px;
+	color: #111;
 }
 .frontUl li {
 	margin: 10px;
-}
-.backUl {
-	list-style: none;
-	text-align: left;
-	margin: 30px;
-}
-.backUl li {
-	margin: 10px;
+	font-size: 20px;
+	border-bottom: 1px solid black;
 }
 
 @media only screen and (max-width: 450px) {

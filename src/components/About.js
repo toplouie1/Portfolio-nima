@@ -57,43 +57,38 @@ function About() {
 			</div>
 
 			<section className="skillsContainer">
-				{/* ${active ? "active" : ""} */}
 				<div>
-					<div>
-						<h1
-							onClick={() => {
-								setFrontOpen(!frontOpen);
-							}}
-						>
-							Front-End
-						</h1>
-					</div>
+					<h1
+						className="skillButton"
+						onClick={() => {
+							setFrontOpen(!frontOpen);
+						}}
+					>
+						Front-End
+					</h1>
 
 					<ul className={`${frontOpen ? "frontUl" : "frontClosed"}`}>
-						<li> - Html/Css</li>
-						<li> - JavaScript</li>
-						<li> - React</li>
-						<li> - Api</li>
-						<li> - BootStrap</li>
-						<li> - Material UI</li>
+						<li>Html/Css</li>
+						<li>JavaScript</li>
+						<li>React</li>
+						<li>Api</li>
+						<li>BootStrap</li>
+						<li>Material UI</li>
 					</ul>
 				</div>
 
 				<div>
-					<h1 onClick={() => setBackOpen(!backOpen)}>Back-End</h1>
-					<ul className={`${backOpen ? "backUl" : "backClosed"}`}>
-						<li> - Node</li>
-						<li> - Express</li>
-						<li> - PostgreSQL</li>
-						<li> - Git</li>
+					<h1 className="skillButton" onClick={() => setBackOpen(!backOpen)}>
+						Back-End
+					</h1>
+					<ul className={`${backOpen ? "frontUl" : "frontClosed"}`}>
+						<li>Node</li>
+						<li>Express</li>
+						<li>PostgreSQL</li>
+						<li>Git</li>
 					</ul>
 				</div>
 			</section>
-
-			{/* <p className="skillss">
-				- HTML/CSS - JavaScript - Node - Express - React - PostgreSQL - APIs -
-				Git - BootStrap - Modern-UI - react-three-fiber - npm - DSA,
-			</p> */}
 		</div>
 	);
 }
