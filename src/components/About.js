@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
 import html from "../skillsimg/html.png";
 import css from "../skillsimg/css.png";
@@ -14,6 +14,9 @@ import git from "../skillsimg/git.png";
 import vscode from "../skillsimg/vscode.png";
 
 function About() {
+	const [frontOpen, setFrontOpen] = useState(false);
+	const [backOpen, setBackOpen] = useState(false);
+
 	return (
 		<div id="aboutContainer">
 			<div className="aboutMain">
@@ -53,10 +56,44 @@ function About() {
 				<img src={vscode} alt="vscode" />
 			</div>
 
-			<p className="skillss">
+			<section className="skillsContainer">
+				{/* ${active ? "active" : ""} */}
+				<div>
+					<div>
+						<h1
+							onClick={() => {
+								setFrontOpen(!frontOpen);
+							}}
+						>
+							Front-End
+						</h1>
+					</div>
+
+					<ul className={`${frontOpen ? "frontUl" : "frontClosed"}`}>
+						<li> - Html/Css</li>
+						<li> - JavaScript</li>
+						<li> - React</li>
+						<li> - Api</li>
+						<li> - BootStrap</li>
+						<li> - Material UI</li>
+					</ul>
+				</div>
+
+				<div>
+					<h1 onClick={() => setBackOpen(!backOpen)}>Back-End</h1>
+					<ul className={`${backOpen ? "backUl" : "backClosed"}`}>
+						<li> - Node</li>
+						<li> - Express</li>
+						<li> - PostgreSQL</li>
+						<li> - Git</li>
+					</ul>
+				</div>
+			</section>
+
+			{/* <p className="skillss">
 				- HTML/CSS - JavaScript - Node - Express - React - PostgreSQL - APIs -
 				Git - BootStrap - Modern-UI - react-three-fiber - npm - DSA,
-			</p>
+			</p> */}
 		</div>
 	);
 }

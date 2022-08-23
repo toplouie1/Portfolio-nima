@@ -35,6 +35,12 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.skillsContainer {
+	margin: 40px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .skills {
 	width: 85%;
 	margin-right: auto;
@@ -45,6 +51,42 @@
 .skills img {
 	margin: 6px;
 	padding: 0px 5px;
+}
+
+.frontClosed {
+	margin: 30px;
+	text-align: left;
+	color: #111;
+	list-style: none;
+}
+.frontClosed li {
+	margin: 10px;
+}
+.backClosed {
+	margin: 30px;
+	list-style: none;
+	text-align: left;
+	color: #111;
+}
+.backClosed li {
+	margin: 10px;
+}
+
+.frontUl {
+	list-style: none;
+	text-align: left;
+	margin: 30px;
+}
+.frontUl li {
+	margin: 10px;
+}
+.backUl {
+	list-style: none;
+	text-align: left;
+	margin: 30px;
+}
+.backUl li {
+	margin: 10px;
 }
 
 @media only screen and (max-width: 450px) {
