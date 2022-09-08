@@ -58,12 +58,7 @@ function About() {
 
 			<section className="skillsContainer">
 				<div>
-					<h1
-						className="skillButton"
-						onClick={() => {
-							setFrontOpen(!frontOpen);
-						}}
-					>
+					<h1 className="skillButton" onClick={() => setFrontOpen(!frontOpen)}>
 						Front-End
 					</h1>
 
@@ -86,6 +81,7 @@ function About() {
 						<li>Express</li>
 						<li>PostgreSQL</li>
 						<li>Git</li>
+						<li>API Implementation</li>
 					</ul>
 				</div>
 			</section>
