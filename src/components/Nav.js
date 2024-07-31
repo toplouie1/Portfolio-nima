@@ -19,7 +19,7 @@ function Nav() {
 					</li>
 					<li className="eachLi resume">
 						<a
-							href="https://docs.google.com/document/d/1cODukgCQzy5lNVWO1-vezqMOV5RlxsDw/edit"
+							href="https://docs.google.com/document/d/1a-ysjaiyZuE8jWWBrY3IVTokBjisQmVYO546Y64YD-c/edit?usp=sharing"
 							target="blank"
 						>
 							Resume
