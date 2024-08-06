@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./About.css";
 import html from "../skillsimg/html.png";
 import css from "../skillsimg/css.png";
@@ -14,9 +14,6 @@ import git from "../skillsimg/git.png";
 import vscode from "../skillsimg/vscode.png";
 
 function About() {
-	const [frontOpen, setFrontOpen] = useState(false);
-	const [backOpen, setBackOpen] = useState(false);
-
 	return (
 		<div id="aboutContainer">
 			<div className="aboutMain">
@@ -33,8 +30,8 @@ function About() {
 					I feel in love with creating something through Your knowledge of tech.
 				</p>
 				<p>
-					that led me to Pursuit bootcamp where they help you become your best
-					self while
+					that led me to Pursuit program where they teach you about web
+					development .
 				</p>
 				<p>teaching you everything that is needed inorder to be succesful.</p>
 			</div>
@@ -55,36 +52,6 @@ function About() {
 				<img src={npm} alt="npm" />
 				<img src={vscode} alt="vscode" />
 			</div>
-
-			<section className="skillsContainer">
-				<div>
-					<h1 className="skillButton" onClick={() => setFrontOpen(!frontOpen)}>
-						Front-End
-					</h1>
-
-					<ul className={`${frontOpen ? "frontUl" : "frontClosed"}`}>
-						<li>Html/Css</li>
-						<li>JavaScript</li>
-						<li>React</li>
-						<li>Api</li>
-						<li>BootStrap</li>
-						<li>Material UI</li>
-					</ul>
-				</div>
-
-				<div>
-					<h1 className="skillButton" onClick={() => setBackOpen(!backOpen)}>
-						Back-End
-					</h1>
-					<ul className={`${backOpen ? "frontUl" : "frontClosed"}`}>
-						<li>Node</li>
-						<li>Express</li>
-						<li>PostgreSQL</li>
-						<li>Git</li>
-						<li>API Implementation</li>
-					</ul>
-				</div>
-			</section>
 		</div>
 	);
 }
