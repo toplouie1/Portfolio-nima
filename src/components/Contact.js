@@ -9,7 +9,7 @@ function Contact() {
 		<div id="contactsContainer">
 			<div className="contactsHeader">Connect with Me</div>
 			<div className="contactSection">
-				<div className="emailSpot">Email : Toplv1999@gmail.com</div>
+				<div className="emailSpot">Email : toplvv010@gmail.com</div>
 
 				<a target="blank" href="https://github.com/toplouie1">
 					<img className="githubImg" src={github} alt="github logo" />
