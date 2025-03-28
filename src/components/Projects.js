@@ -6,7 +6,7 @@ import youtube from "../images/youtubeClone.png";
 // import pixel from "../images/pixelPainter.png";
 // import Budget from "../images/budget.png";
 import eduk from "../images/eduk.png";
-import Watch from "../images/watches.png";
+import Novus from "../images/Novus.png";
 
 function Projects() {
 	return (
@@ -51,29 +51,32 @@ function Projects() {
 
 			<div className="project">
 				<div>
-					<a href="https://musing-euler-08cdda.netlify.app/" target="blank">
-						<img className="imgs" src={Watch} alt="Watch-Store-img" />
+					<a href="https://novus-news.netlify.app/" target="blank">
+						<img className="imgs" src={Novus} alt="Novus-img" />
 					</a>
 				</div>
 				<div className="discriptionContainer">
 					<div className="summaryP">
 						<h2>
-							<span className="descriptionSpan">-</span> Watch-Store{" "}
+							<span className="descriptionSpan">-</span> Novus{" "}
 							<span className="descriptionSpan">-</span>
 						</h2>
-						<span className="technologyTitle">Description</span> : This is a
-						fullstack ecommerce store for watches , that has the CRUD
-						functionality , you recieve the information from Postgres then its
-						manipulated and shown on the page
+						<span className="technologyTitle">Description</span> : Novus is a
+						modern, AI-powered news aggregation platform that delivers
+						personalized news experiences through advanced recommendation
+						systems and semantic search capabilities. Our platform gathers news
+						from around the world while using AI-driven insights and
+						retrieval-augmented generation (RAG) to provide a clearer, more
+						engaging perspective on the stories that matter.
 						<div>
 							<span className="technologyTitle">Technology Utilized</span> :
-							Html - Css - javascript - react - express - react-three-fiber ,
-							material Ui , Postgress
+							React, Node.js, Express, PostgreSQL, pg vector, Gemini Embeddings,
+							CSS3, React Router DOM, Context API.
 						</div>
 						<p>
 							<a
 								className="technologyTitle"
-								href="https://github.com/toplouie1/nima-final-project"
+								href="https://github.com/toplouie1/Novus"
 								target="blank"
 							>
 								Code
