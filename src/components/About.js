@@ -17,30 +17,27 @@ function About() {
 	return (
 		<div id="aboutContainer">
 			<div className="aboutMain">
-				<h1 className="aboutHeading">About mé</h1>
+				<h1 className="aboutHeading">About Me</h1>
 				<p>
 					Hi, I'm Nima Sherpa, a full-stack web developer with expertise in
-					front-end and back-end technologies like JavaScript, React, Node.js,
-					and Python.
+					front-end and back-end technologies like JavaScript, React,
+					Typescript, Node.js, and Python.
 				</p>
 				<p>
-					At Peloton, I worked on integrating Commerce tools into the system and
-					developing e-commerce features like a user-friendly gifting system and
-					a streamlined checkout process,
-				</p>
-				<p>significantly improving customer experience and engagement.</p>
-				<p>
-					I'm passionate about building scalable APIs, leveraging Agile
-					methodologies,
-				</p>
-				<p>and delivering impactful software solutions.</p>
-				<p>
-					Currently, I'm fascinated by AI and focused on building AI-powered web
-					apps
+					At Peloton, I worked on integrating Commercetools into the system and
+					developed e-commerce features such as a user-friendly gifting system
+					and a streamlined checkout process, significantly improving customer
+					experience and engagement.
 				</p>
 				<p>
-					and exploring other AI applications to drive innovation and enhance
-					user experiences.
+					I thrive on tackling complex challenges, crafting clean, efficient
+					code, and building solutions that not only meet user needs but also
+					drive business success.
+				</p>
+				<p>
+					I'm always looking for new ways to innovate and create technology that
+					makes a real impact, continuously refining my skills and staying ahead
+					of industry trends.
 				</p>
 			</div>
 
